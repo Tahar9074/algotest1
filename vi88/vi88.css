@@ -1,0 +1,136 @@
+header {
+    position: fixed;
+    top:0%;
+    left: 0%;
+    border: 1px solid white;
+    background-color: white;
+    opacity: .7;
+    }
+    .navigation {
+        display: flex;
+    }
+    .docplanner-logo {
+        width: 70%;
+        display: block;
+        margin-block-start: 2%;
+        margin-block-end: 2%;
+        margin-inline-start: 2%;
+        margin-inline-end: 2%;}
+    .docplanner-logo img {
+        width:35%;
+    }
+    .nav-links {
+        width: 30%;
+        display: flex;
+        justify-content: center;
+        margin-top: 2%;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: rgb(0,197,155);
+        margin:18px;
+    }
+    .container{
+        padding: 10%;
+    }
+    .general-infos-container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Docplanner-sygnet {
+       display:flex;
+       justify-content: center;
+    }
+    .general-infos-container h1 {
+        width: 50%;
+        margin-left: 25%;
+        color: rgb(0,197,155);
+        font-family: "arsenal", cursive;
+    }
+    .discreption-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        text-align: left;
+        margin-left: 8%;
+    }
+    .services-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 7%;
+        height: 332px;
+    }
+    .services-container h2 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-left:6%;
+        color: hsla(0,0%,100%,.7);
+    }
+    .services-container h1 {
+        margin-left: 6%;
+        color: white;
+    }
+    .countries-existing {
+        margin-left: 6%;
+        padding: 3%;
+        border-radius: 10px;
+    }
+    .services-container-for-patients {
+        border: 1px solid black;
+        border-radius: 25px;
+        width: 45%;
+        background-color: rgb(0,204,177);
+        overflow: hidden;
+    }
+    .services-container-for-patients-image {
+        display: block;
+        margin-block-start: -4em;
+        margin-block-end: 3em;
+        margin-inline-start: 15px;
+        margin-inline-end: 100px;   
+    }
+    .services-container-for-patients-image img {
+        width: 100%;
+        margin-left: 57%;
+    }
+    .services-container-for-doctors {
+        border: 1px solid;
+        border-radius: 25px;
+        width:45%;
+        background-color: rgb(61,131,223);
+        overflow: hidden;
+    }
+    .services-container-for-doctors-image
+    {    display: block;
+        margin-block-start: -4em;
+        margin-block-end: 3em;
+        margin-inline-start: 15px;
+        margin-inline-end: 100px;
+    }
+    .services-container-for-doctors-image img {
+        width: 100%;
+        padding: 16%;
+        margin-left: 32%;
+    }
+    .adress-container {   
+        display: flex;
+        width: 100%;
+        align-items: center;
+        text-align: center;
+
+    }
+    .adress-container h2 {
+        font-family: "Charmonman", cursive;
+        color:rgb(0,204,177);
+        width: 30%;
+        text-align:start;
+
+    }
+    .adress-link{
+        text-align: center;
+        display: inline-block;
+        right: 50px;
+    }
+ 
